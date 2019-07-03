@@ -3,10 +3,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class MainController {
+public class LoginController {
 
   @RequestMapping("/")
-  //@ResponseBody
   public String index() {
     return "Hello World!!!";
   }
@@ -15,6 +14,16 @@ public class MainController {
   public String index2() {
     return "hello.html";
   }
+ 
+//  @RequestMapping("/register")
+//  public String register{
+//	    return "Hello World!!!";  
+//  }
 
+  @RequestMapping("/register")
+  public String register() {
+    return "Hello World!!!";
+  }
+ 
 
 }
