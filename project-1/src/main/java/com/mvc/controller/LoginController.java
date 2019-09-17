@@ -3,8 +3,6 @@ package com.mvc.controller;
 import java.util.List;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,7 +19,6 @@ import com.mvc.service.impl.LoginImpl;
 @RestController
 @RequestMapping("/login")
 public class LoginController {
-	private static final Logger LOGGER = LoggerFactory.getLogger(LoginController.class);
 
 	@Autowired
 	Login login = new LoginImpl();
@@ -49,6 +46,7 @@ public class LoginController {
 	@GetMapping("/user")
 	public Map<String, Object> getUserByIdByPwd(@RequestParam(value = "userName", required = true) String userName,
 			@RequestParam(value = "password", required = true) String password) {
+		
 		return login.getUserByUserNameByPwd(userName, password);
 	}
 

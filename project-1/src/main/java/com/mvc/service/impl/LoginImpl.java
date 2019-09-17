@@ -71,6 +71,7 @@ public class LoginImpl implements Login {
 			throw new GenericException("User password is wrong");
 		}
 		
+		
 		return user2;
 	}
 

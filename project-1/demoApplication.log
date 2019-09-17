@@ -1,0 +1,15 @@
+[background-preinit] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[background-preinit] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.7.Final
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers  - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers  - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers  - Unable to load or instantiate JPA aware resolver org.hibernate.validator.internal.engine.resolver.JPATraversableResolver. All properties will per default be traversable.
+[background-preinit] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser  - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[background-preinit] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper  - Trying to load META-INF/validation.xml via TCCL
+[background-preinit] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper  - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[background-preinit] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser  - No META-INF/validation.xml found. Using annotation based configuration only.
+[background-preinit] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator  - Loaded expression factory via original TCCL
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl  - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl  - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl  - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl  - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl  - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
